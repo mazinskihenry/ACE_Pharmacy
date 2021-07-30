@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="aceP">
+    <Package name="circulation">
+        <Key ID="STR_ACEP_circulation_SETTING_ENABLE">
+            <English>ACE-Pharmacy activated?</English>
+            <German>ACE-Kreislauf aktivieren?</German>
+            <Polish>ACE-Czy zaawansowane krążenie ma być włączone?</Polish>
+            <Spanish>¿Activar ACE-Circulación?</Spanish>
+            <Chinese>啟用ACE-血型循環系統？</Chinese>
+            <Czech>ACE-Circulation aktivováno?</Czech>
+            <Korean>ACE 순환계통 시스탬 활성화?</Korean>
+            <French>Ace-Circulation activé?</French>
+            <Turkish>ACE-Sirkülasyon etkinleştirildi mi?</Turkish>
+            <Italian>Attivare ACE-Circolazione?</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_NALOXONE_ACTIVE">
+            <English>Allow players to use Naloxone?</English>
+            <German>Stoffwechselabhängiger Puls?</German>
+            <Polish>Czy tętno ma być zależne od metabolizmu?</Polish>
+            <Spanish>¿Pulso cardíaco depende de metabolismo?</Spanish>
+            <Chinese>依心率來決定代謝率？</Chinese>
+            <Czech>Metabolismus závislý na tepu?</Czech>
+            <Korean>신채대사에 따라 심박수를 결정합니까?</Korean>
+            <French>Le pouls dépend du métabolisme?</French>
+            <Turkish>Metabolizmaya Bağımlı kalp hızı?</Turkish>
+            <Italian>La frequenza cardiaca dipende dal metabolismo?</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_CARBONATE_ACTIVE">
+            <English>Allow players to use Ammonium Carbonate?</English>
+            <German>Anderer Loadoutname</German>
+            <Polish>Inny  loadoutname</Polish>
+            <Spanish>Diferente nombre de equipamiento</Spanish>
+            <Chinese>不同配置名稱</Chinese>
+            <Czech>Jiný název vybavení</Czech>
+            <Korean>다른 구성이름</Korean>
+            <French>Nom d'équipement différent</French>
+            <Turkish>Farklı ekipman adı</Turkish>
+            <Italian>Loadoutname diverso</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_TXA_ACTIVE">
+            <English>Allow players to use TXA?</English>
+            <German>Anderer Loadoutname</German>
+            <Polish>Inny  loadoutname</Polish>
+            <Spanish>Diferente nombre de equipamiento</Spanish>
+            <Chinese>不同配置名稱</Chinese>
+            <Czech>Jiný název vybavení</Czech>
+            <Korean>다른 구성이름</Korean>
+            <French>Nom d'équipement différent</French>
+            <Turkish>Farklı ekipman adı</Turkish>
+            <Italian>Loadoutname diverso</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_NALOXONE_TIME">
+            <English>Application time for Naloxone</English>
+            <German>Anderer Loadoutname</German>
+            <Polish>Inny  loadoutname</Polish>
+            <Spanish>Diferente nombre de equipamiento</Spanish>
+            <Chinese>不同配置名稱</Chinese>
+            <Czech>Jiný název vybavení</Czech>
+            <Korean>다른 구성이름</Korean>
+            <French>Nom d'équipement différent</French>
+            <Turkish>Farklı ekipman adı</Turkish>
+            <Italian>Loadoutname diverso</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_CARBONATE_TIME">
+            <English>Application time for Carbonate</English>
+            <German>Anderer Loadoutname</German>
+            <Polish>Inny  loadoutname</Polish>
+            <Spanish>Diferente nombre de equipamiento</Spanish>
+            <Chinese>不同配置名稱</Chinese>
+            <Czech>Jiný název vybavení</Czech>
+            <Korean>다른 구성이름</Korean>
+            <French>Nom d'équipement différent</French>
+            <Turkish>Farklı ekipman adı</Turkish>
+            <Italian>Loadoutname diverso</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_IV_TIME">
+            <English>Time to establish IVs</English>
+            <German>Anderer Loadoutname</German>
+            <Polish>Inny  loadoutname</Polish>
+            <Spanish>Diferente nombre de equipamiento</Spanish>
+            <Chinese>不同配置名稱</Chinese>
+            <Czech>Jiný název vybavení</Czech>
+            <Korean>다른 구성이름</Korean>
+            <French>Nom d'équipement différent</French>
+            <Turkish>Farklı ekipman adı</Turkish>
+            <Italian>Loadoutname diverso</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Painkillers_DescShort">
+            <English>Used to suppress pain</English>
+            <German>Schmerzbekämpfer</German>
+            <Polish>Używany do zwalczania bólu</Polish>
+            <Spanish>Usado para suprimir el dolor</Spanish>
+            <Chinese>用於舒緩疼痛</Chinese>
+            <Czech>Užíváno na potlačení bolesti</Czech>
+            <Korean>통증완화를 위해 사용합니다</Korean>
+            <French>Utilisé pour diminuer la douleur</French>
+            <Turkish>Ağrıyı bastırmak için kullanılır</Turkish>
+            <Italian>Usato per sopprimere il dolore</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Painkillers_DescUse">
+            <English>An analgesic used to combat light to moderate pain experiences.</English>
+            <German>Ein Schmerzmittel um leichte bis mäßige Schmerzen zu behandeln.</German>
+            <Polish>Środek przeciwbólowy używany do zwalczania słabego i średniego bólu.</Polish>
+            <Spanish>Analgésico usado para combatir dolor ligero a moderado.</Spanish>
+            <Chinese>一種藥物，用於減緩輕、中度的疼痛用。</Chinese>
+            <Czech>Analgetikum používané k potlačení lehkých až středně bolestivých zážitků.</Czech>
+            <Korean>가벼운 통증에서 중간 정도의 통증에 대응하기 위한 진통제</Korean>
+            <French>Un analgésique utilisé pour diminuer la douleur.</French>
+            <Turkish>Hafif ila orta dereceli ağrı deneyimleriyle mücadele etmek için kullanılan bir ağrı kesici.</Turkish>
+            <Italian>Analgesico usato per combattere il dolore moderato e leggero</Italian>
+
+        </Key>
+        <Key ID="STR_ACEP_circulation_Painkillers_Box_Display">
+            <English>Painkillers</English>
+            <German>Schmerzmittel</German>
+            <Polish>Lek przeciwbólowy</Polish>
+            <Spanish>Analgésicos</Spanish>
+            <Chinese>止痛藥</Chinese>
+            <Czech>Prášky proti bolesti</Czech>
+            <Korean>진통제</Korean>
+            <French>Analgésiques</French>
+            <Turkish>Ağrı Kesiciler</Turkish>
+            <Italian>Antidolorifici</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Inject_Box_Painkillers">
+            <English>Take Painkillers</English>
+            <German>Schlucke Schmerzmittel</German>
+            <Polish>Użyj leku przeciwbólowego</Polish>
+            <Spanish>Usar analgésico</Spanish>
+            <Chinese>服用止痛藥</Chinese>
+            <Czech>Vzít si Prášky proti bolesti</Czech>
+            <Korean>진통제 복용</Korean>
+            <French>Prendre des analgésiques</French>
+            <Turkish>Ağrı Kesicileri Al</Turkish>
+            <Italian>Prendi antidolorifici</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Carbonate_DescShort">
+            <English>Used to restore consciousness</English>
+            <German>Schmerzbekämpfer</German>
+            <Polish>Używane w celu przywrócenia przytomności</Polish>
+            <Spanish>Solía ​​recuperar la conciencia</Spanish>
+            <Chinese>用於舒緩疼痛</Chinese>
+            <Czech>Užíváno na potlačení bolesti</Czech>
+            <Korean>통증완화를 위해 사용합니다</Korean>
+            <French>Utilisé pour reprendre conscience</French>
+            <Turkish>Ağrıyı bastırmak için kullanılır</Turkish>
+            <Italian>Usato per riprendere coscienza</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Carbonate_DescUse">
+            <English>The primary ingredient in smelling salts, used to restore consciousness in limited situations.</English>
+            <German>Ein Schmerzmittel um leichte bis mäßige Schmerzen zu behandeln.</German>
+            <Polish>Głównym składnikiem są sole trzeźwiące, używane do przywrócenia przytomności w określonych okolicznościach</Polish>
+            <Spanish>El ingrediente principal de las sales, utilizado para restaurar la conciencia en situaciones limitadas.</Spanish>
+            <Chinese>一種藥物，用於減緩輕、中度的疼痛用。</Chinese>
+            <Czech>Analgetikum používané k potlačení lehkých až středně bolestivých zážitků.</Czech>
+            <Korean>가벼운 통증에서 중간 정도의 통증에 대응하기 위한 진통제</Korean>
+            <French>L'ingrédient principal dans les sels, utilisé pour restaurer la conscience dans des situations limitées.</French>
+            <Turkish>Hafif ila orta dereceli ağrı deneyimleriyle mücadele etmek için kullanılan bir ağrı kesici.</Turkish>
+            <Italian>L'ingrediente principale nei sali, utilizzati per ripristinare la coscienza in situazioni limitate.</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Carbonate_Box_Display">
+            <English>Ammonium Carbonate</English>
+            <German>Schmerzmittel</German>
+            <Polish>Sole trzeźwiące</Polish>
+            <Spanish>Carbonato de amonio</Spanish>
+            <Chinese>止痛藥</Chinese>
+            <Czech>Prášky proti bolesti</Czech>
+            <Korean>진통제</Korean>
+            <French>Carbonate d'ammonium</French>
+            <Turkish>Ağrı Kesiciler</Turkish>
+            <Italian>Carbonato d'ammonio</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Take_Carbonate">
+            <English>Use Carbonate</English>
+            <German>Schlucke Schmerzmittel</German>
+            <Polish>Użyj soli trzeźwiących</Polish>
+            <Spanish>Administrar carbonato</Spanish>
+            <Chinese>服用止痛藥</Chinese>
+            <Czech>Vzít si Prášky proti bolesti</Czech>
+            <Korean>진통제 복용</Korean>
+            <French>Administre du Carbonate</French>
+            <Turkish>Ağrı Kesicileri Al</Turkish>
+            <Italian>Somministra Carbonato</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Naloxone_DescShort">
+            <English>Used to reverse opioid overdoses</English>
+            <German>Schmerzbekämpfer</German>
+            <Polish>Używany do zwalczania przedawkowania opioidów</Polish>
+            <Spanish>Se utiliza para tratar las sobredosis de opiáceos.</Spanish>
+            <Chinese>用於舒緩疼痛</Chinese>
+            <Czech>Užíváno na potlačení bolesti</Czech>
+            <Korean>통증완화를 위해 사용합니다</Korean>
+            <French>Utilisé pour traiter les overdoses d'opiacés</French>
+            <Turkish>Ağrıyı bastırmak için kullanılır</Turkish>
+            <Italian>Usato per trattare le overdose da oppiacei</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Naloxone_DescUse">
+            <English>An opioid antagonist that can reverse opioid overdoses from medications such as Morphine.</English>
+            <German>Ein Schmerzmittel um leichte bis mäßige Schmerzen zu behandeln.</German>
+            <Polish>Antagonista opioidów potrafiący zwalczać przedawkowanie leków takich jak morfina.</Polish>
+            <Spanish>Un antagonista opioide que puede revertir las sobredosis de opioides como la morfina.</Spanish>
+            <Chinese>一種藥物，用於減緩輕、中度的疼痛用。</Chinese>
+            <Czech>Analgetikum používané k potlačení lehkých až středně bolestivých zážitků.</Czech>
+            <Korean>가벼운 통증에서 중간 정도의 통증에 대응하기 위한 진통제</Korean>
+            <French>Un antagoniste des opioïdes qui peut inverser le surdosage d'opioïdes comme la morphine.</French>
+            <Turkish>Hafif ila orta dereceli ağrı deneyimleriyle mücadele etmek için kullanılan bir ağrı kesici.</Turkish>
+            <Italian>Un antagonista degli oppioidi che può invertire le overdose di oppioidi come la morfina.</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Naloxone_Box_Display">
+            <English>Naloxone</English>
+            <German>Schmerzmittel</German>
+            <Polish>Nalokson</Polish>
+            <Spanish>Naloxone</Spanish>
+            <Chinese>止痛藥</Chinese>
+            <Czech>Prášky proti bolesti</Czech>
+            <Korean>진통제</Korean>
+            <French>Naloxone</French>
+            <Turkish>Ağrı Kesiciler</Turkish>
+            <Italian>Naloxone</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Take_Naloxone">
+            <English>Use Naloxone</English>
+            <German>Schlucke Schmerzmittel</German>
+            <Polish>Użyj naloksonu</Polish>
+            <Spanish>Administrar Naloxone</Spanish>
+            <Chinese>服用止痛藥</Chinese>
+            <Czech>Vzít si Prášky proti bolesti</Czech>
+            <Korean>진통제 복용</Korean>
+            <French>Administre du Naloxone</French>
+            <Turkish>Ağrı Kesicileri Al</Turkish>
+            <Italian>Somministra Naloxone</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_TXA_DescShort">
+            <English>Encourages clot formation</English>
+            <German>Schmerzbekämpfer</German>
+            <Polish>Używany do zwalczania bólu</Polish>
+            <Spanish>Favorece la coagulación</Spanish>
+            <Chinese>用於舒緩疼痛</Chinese>
+            <Czech>Užíváno na potlačení bolesti</Czech>
+            <Korean>통증완화를 위해 사용합니다</Korean>
+            <French>Favorise la coagulation</French>
+            <Turkish>Ağrıyı bastırmak için kullanılır</Turkish>
+            <Italian>Favorisce la coagulazione</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_TXA_DescUse">
+            <English>Used to encourage and stabilize clots in a patient.</English>
+            <German>Ein Schmerzmittel um leichte bis mäßige Schmerzen zu behandeln.</German>
+            <Polish>Środek przeciwbólowy używany do zwalczania słabego i średniego bólu.</Polish>
+            <Spanish>Usado para promover y estabilizar la coagulación en el paciente.</Spanish>
+            <Chinese>一種藥物，用於減緩輕、中度的疼痛用。</Chinese>
+            <Czech>Analgetikum používané k potlačení lehkých až středně bolestivých zážitků.</Czech>
+            <Korean>가벼운 통증에서 중간 정도의 통증에 대응하기 위한 진통제</Korean>
+            <French>Utilisé pour favoriser et stabiliser la coagulation chez le patient</French>
+            <Turkish>Hafif ila orta dereceli ağrı deneyimleriyle mücadele etmek için kullanılan bir ağrı kesici.</Turkish>
+            <Italian>Utilizzato per favorire e stabilizzare la coagulazione nel paziente</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_TXA_Box_Display">
+            <English>TXA</English>
+            <German>Schmerzmittel</German>
+            <Polish>Lek przeciwbólowy</Polish>
+            <Spanish>TXA</Spanish>
+            <Chinese>止痛藥</Chinese>
+            <Czech>Prášky proti bolesti</Czech>
+            <Korean>진통제</Korean>
+            <French>TXA</French>
+            <Turkish>Ağrı Kesiciler</Turkish>
+            <Italian>TXA</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Take_TXA">
+            <English>Push TXA</English>
+            <German>Schlucke Schmerzmittel</German>
+            <Polish>Użyj leku przeciwbólowego</Polish>
+            <Spanish>Administrar TXA</Spanish>
+            <Chinese>服用止痛藥</Chinese>
+            <Czech>Vzít si Prášky proti bolesti</Czech>
+            <Korean>진통제 복용</Korean>
+            <French>Administre du TXA</French>
+            <Turkish>Ağrı Kesicileri Al</Turkish>
+            <Italian>Somministra TXA</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Using">
+            <English>Using</English>
+            <German>Schlucke</German>
+            <Polish>Używanie</Polish>
+            <Spanish>Usando</Spanish>
+            <Chinese>服用中</Chinese>
+            <Czech>Používám</Czech>
+            <Korean>사용중</Korean>
+            <French>Utilisation</French>
+            <Turkish>Kullanılıyor</Turkish>
+            <Italian>Usando</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Pushing">
+            <English>Pushing</English>
+            <German>Schlucke</German>
+            <Polish>Wstrzykiwanie</Polish>
+            <Spanish>Empujando</Spanish>
+            <Chinese>服用中</Chinese>
+            <Czech>Používám</Czech>
+            <Korean>사용중</Korean>
+            <French>En administrant</French>
+            <Turkish>Kullanılıyor</Turkish>
+            <Italian>Somministrando</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_push_log">
+            <English>%1 pushed %2</English>
+            <German>%1 intubierte mit %2</German>
+            <Polish>%1 wstrzyknął %2</Polish>
+            <Spanish>%1 administró %2</Spanish>
+            <Chinese>%1 被插入一個 %2</Chinese>
+            <Czech>%1 vložil %2</Czech>
+            <Korean>%1 삽입됨 %2</Korean>
+            <French>%1 a administré un(e) %2</French>
+            <Turkish>% 1,% 2 eklendi</Turkish>
+            <Italian>%1 ha somministrato %2</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_inject_log">
+            <English>%1 injected %2</English>
+            <German>%1 intubierte mit %2</German>
+            <Polish>%1 włożył %2</Polish>
+            <Spanish>%1 inyectó %2</Spanish>
+            <Chinese>%1 被插入一個 %2</Chinese>
+            <Czech>%1 vložil %2</Czech>
+            <Korean>%1 삽입됨 %2</Korean>
+            <French>%1 a injecté un(e) %2</French>
+            <Turkish>% 1,% 2 eklendi</Turkish>
+            <Italian>%1 ha iniettato %2</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_use_log">
+            <English>%1 used %2</English>
+            <German>%1 intubierte mit %2</German>
+            <Polish>%1 użył %2</Polish>
+            <Spanish>%1 usado %2</Spanish>
+            <Chinese>%1 被插入一個 %2</Chinese>
+            <Czech>%1 vložil %2</Czech>
+            <Korean>%1 삽입됨 %2</Korean>
+            <French>%1 a utilisé un(e) %2</French>
+            <Turkish>% 1,% 2 eklendi</Turkish>
+            <Italian>%1 ha usato %2</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_ACEP_IV_16_Display">
+            <English>16g IV</English>
+            <German>16g IV</German>
+            <Polish>16g IV</Polish>
+            <Spanish>16g IV</Spanish>
+            <Chinese>16g IV</Chinese>
+            <Czech>16g IV</Czech>
+            <Korean>16g IV</Korean>
+            <French>16g IV</French>
+            <Turkish>16g IV</Turkish>
+            <Italian>16g IV</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_IV_DescShort">
+            <English>Intravenous Needle</English>
+            <German>Schmerzbekämpfer</German>
+            <Polish>Kaniula dożylna</Polish>
+            <Spanish>Usado para suprimir el dolor</Spanish>
+            <Chinese>用於舒緩疼痛</Chinese>
+            <Czech>Užíváno na potlačení bolesti</Czech>
+            <Korean>통증완화를 위해 사용합니다</Korean>
+            <French>Utilisé pour diminuer la douleur</French>
+            <Turkish>Ağrıyı bastırmak için kullanılır</Turkish>
+            <Italian>Usato per sopprimere il dolore</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_IV_DescUse">
+            <English>Used to allow fluids and certain medications to enter the body.</English>
+            <German>Ein Schmerzmittel um leichte bis mäßige Schmerzen zu behandeln.</German>
+            <Polish>Używany w celu dostarczenia płynów i pewnych leków do krwioobiegu.</Polish>
+            <Spanish>Analgésico usado para combatir dolor ligero a moderado.</Spanish>
+            <Chinese>一種藥物，用於減緩輕、中度的疼痛用。</Chinese>
+            <Czech>Analgetikum používané k potlačení lehkých až středně bolestivých zážitků.</Czech>
+            <Korean>가벼운 통증에서 중간 정도의 통증에 대응하기 위한 진통제</Korean>
+            <French>Un analgésique utilisé pour diminuer la douleur.</French>
+            <Turkish>Hafif ila orta dereceli ağrı deneyimleriyle mücadele etmek için kullanılan bir ağrı kesici.</Turkish>
+            <Italian>Analgesico usato per combattere il dolore moderato e leggero</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Apply_IV_16">
+            <English>Establish 16g IV</English>
+            <German>Überprüfe</German>
+            <Polish>Załóż 16G IV</Polish>
+            <Spanish>Coloque 16g IV</Spanish>
+            <Chinese>檢查中</Chinese>
+            <Czech>Kontroluji</Czech>
+            <Korean>확인중</Korean>
+            <French>Insertion 16g IV</French>
+            <Turkish>Kontrol Ediliyor</Turkish>
+            <Italian>Posiziona 16g IV</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Applying_IV">
+            <English>Establishing IV</English>
+            <German>Überprüfe</German>
+            <Polish>Zakładanie IV</Polish>
+            <Spanish>Colocando IV</Spanish>
+            <Chinese>檢查中</Chinese>
+            <Czech>Kontroluji</Czech>
+            <Korean>확인중</Korean>
+            <French>Insertion IV</French>
+            <Turkish>Kontrol Ediliyor</Turkish>
+            <Italian>Posizionando IV</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_iv_log">
+            <English>%1 established a %2</English>
+            <German>%1 intubierte mit %2</German>
+            <Polish>%1 założył %2</Polish>
+            <Spanish>%1 coloqueado %2</Spanish>
+            <Chinese>%1 被插入一個 %2</Chinese>
+            <Czech>%1 vložil %2</Czech>
+            <Korean>%1 삽입됨 %2</Korean>
+            <French>%1 a inseré un(e) %2</French>
+            <Turkish>% 1,% 2 eklendi</Turkish>
+            <Italian>%1 ha posizionato %2</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Remove_IV">
+            <English>Remove IV/IO</English>
+            <German>Überprüfe</German>
+            <Polish>Zdejmij IV/IO</Polish>
+            <Spanish>Quitar IV / IO</Spanish>
+            <Chinese>檢查中</Chinese>
+            <Czech>Kontroluji</Czech>
+            <Korean>확인중</Korean>
+            <French>Retire</French>
+            <Turkish>Kontrol Ediliyor</Turkish>
+            <Italian>Rimuovi IV/IO</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Removing_IV">
+            <English>Removing</English>
+            <German>Überprüfe</German>
+            <Polish>Zdejmowanie</Polish>
+            <Spanish>Quitando</Spanish>
+            <Chinese>檢查中</Chinese>
+            <Czech>Kontroluji</Czech>
+            <Korean>확인중</Korean>
+            <French>En train de retirer</French>
+            <Turkish>Kontrol Ediliyor</Turkish>
+            <Italian>Rimuovendo</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_Pain_empty">
+            <English>%1 is now empty</English>
+            <German>%1 ist nun leer</German>
+            <Polish>%1 jest pusty</Polish>
+            <Spanish>%1 está vacío ahora</Spanish>
+            <Chinese>%1 目前用完了</Chinese>
+            <Czech>%1 je prázdná</Czech>
+            <Korean>%1 는 현제 비었음</Korean>
+            <French>%1 est maintenant vide</French>
+            <Turkish>% 1 artık boş</Turkish>
+            <Italian>è vuota</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_SETTING_CPR_CHANCES">
+            <English>Enable different CPR chances per medical level</English>
+            <Polish>Włącz różne szanse resuscytacji, zależne od wyszkolenia medycznego</Polish>
+            <German>Aktiviere verschiedene HLW Erfolgsraten für verschiedene Medic Level</German>
+            <Spanish>Permita diferentes posibilidades de RCP por nivel médico</Spanish>
+            <Chinese>每個醫療級別啟用不同的CPR機會</Chinese>
+            <Czech>Povolit různé šance pro resuscitaci dle úrovně zdravotnického výcviku</Czech>
+            <Korean>의료레벨에 따라 CPR 성공확률을 다르게 하도록 설정</Korean>
+            <French>Activer différentes chances de réussite de RCP par niveau médical </French>
+            <Turkish>Tıbbi eğitim seviyesi başına farklı CPR şansı sağlayın</Turkish>
+            <Italian>Attivare diverse possibilità di riuscita della RCP per livello medico</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_SETTING_CPR_CHANCE_DOCTOR">
+            <English>CPR Chance for Doctors</English>
+            <Polish>Szansa na udaną resuscytację dla doktorów</Polish>
+            <German>HLW Erfolgsrate für Doktoren</German>
+            <Spanish>Posibilidad de RCP para médicos</Spanish>
+            <Chinese>醫生的CPR機會</Chinese>
+            <Czech>Šance resuscitace pro doktory</Czech>
+            <Korean>군의관 CPR 성공확률</Korean>
+            <French>Chances de RCP pour les Docteurs</French>
+            <Turkish>Doktorlar için CPR Şansı</Turkish>
+            <Italian>Probabilità di RCP per i dottori</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_SETTING_CPR_CHANCE_REGULARMEDIC">
+            <English>CPR Chance for Regular medics</English>
+            <Polish>Szansa na udaną resuscytację dla zwykłych medyków</Polish>
+            <German>HLW Erfolgsrate für normale Medics</German>
+            <Spanish>Posibilidad de RCP para médicos regulares</Spanish>
+            <Chinese>常規醫生的CPR機會</Chinese>
+            <Czech>Šance resuscitace pro regulérní zdravotníky</Czech>
+            <Korean>의무병 CPR 성공확률</Korean>
+            <French>Chances de RCP pour les médecins</French>
+            <Turkish>İlk yardım uzmanları için CPR Şansı</Turkish>
+            <Italian>Probabilità di RCP per i medici</Italian>
+        </Key>
+        <Key ID="STR_ACEP_circulation_SETTING_CPR_CHANCE_DEFAULT">
+            <English>CPR Chance for Default</English>
+            <Polish>Szansa resuscytacji domyślnie</Polish>
+            <German>Standard HLW Erfolgsrate</German>
+            <Spanish>Posibilidad de RCP por incumplimiento</Spanish>
+            <Chinese>預設CPR機會</Chinese>
+            <Czech>Šance resuscitace pro základní</Czech>
+            <Korean>일반전투병 CPR 성공확률</Korean>
+            <French>Chances de RCP par défaut</French>
+            <Turkish>Varsayılan CPR Şansı</Turkish>
+            <Italian>Probabilità di RCP per default</Italian>
+        </Key>
+    </Package>
+</Project>
